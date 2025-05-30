@@ -55,7 +55,7 @@ header {
 }
 .button-header2:hover {
     transform: scale(1.05);
-    opacity: 0.99;
+    opacity: 0.98;
 }
 
 .button-:active {
