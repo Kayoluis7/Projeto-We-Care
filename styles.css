@@ -1,0 +1,166 @@
+* {
+    font-family: 'montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    margin: 44px 0 144px 76px;
+}
+
+.link-header {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    color: #989d9c;
+    cursor: pointer;
+    margin-right: 23px;
+}
+
+.button-header {
+    background: #665ae1;
+    border-radius: 20.5px;
+    width: 130px;
+    height: 41px;
+    border: none;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    color: #ffff;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+}
+.button-header:hover {
+    transform: scale(1.05);
+    opacity: 0.99;
+}
+
+.button-header:active {
+    opacity: 1;
+}
+
+.button-header2 {
+    width: 239px;
+    height: 64px;
+    border-radius: 20.5px;
+    cursor: pointer;
+    background: rgba(173, 255, 0, 1);
+    font-family: Montserrat;
+    font-weight: 700;
+    font-size: 28px;
+    border: none;
+    cursor: pointer drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    transition: transform 0.2s ease;
+}
+.button-header2:hover {
+    transform: scale(1.05);
+    opacity: 0.99;
+}
+
+.button-:active {
+    opacity: 1;
+}
+
+
+.h1-main {
+    width: 513px;
+    height: 122px;
+    top: -1150px;
+    left: -2437px;
+    font-family: Montserrat;
+    font-weight: 900;
+    font-size: 100px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: rgba(81, 81, 81, 1);
+}
+
+.h2-main {
+    width: 448;
+    height: 71;
+    top: -1029px;
+    left: -2437px;
+    font-family: Montserrat;
+    font-weight: 500;
+    font-size: 58px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: rgba(81, 81, 81, 1);
+}
+
+.p1 {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 100%;
+    color: rgba(132, 132, 132, 1);
+    width: 515px;
+    margin-top: 32px;
+    margin-bottom: 65px;
+}
+
+.logo-image {
+    width: 568px;
+    height: 500px;
+    margin-left: 125px;
+    filter: drop-shadow(30px 45px 40px #5c5961);
+}
+
+section {
+    display: inline-block;
+    margin-left: 80px;
+}
+
+@media screen and (max-width: 900px) {
+
+
+
+    div {
+        height: auto;
+        padding: 100px 10px;
+    }
+
+    .logo-image {
+        width: 450px;
+        height: 350px;
+        margin-left: 50px;
+    }
+
+    .h1-main {
+        font-family: Montserrat;
+        font-weight: 900;
+        font-size: 80px;
+        line-height: 180%;
+        letter-spacing: 0%;
+    }
+
+    .h2-main {
+        font-family: Montserrat;
+        font-weight: 500;
+        font-size: 50px;
+        line-height: 150%;
+        letter-spacing: 0%;
+
+    }
+
+    p {
+        display: none;
+    }
+
+    header {
+        display: none;
+    }
+
+    .button-header2 {
+        width: 290px;
+        height: 74px;
+        border-radius: 20.5px;
+        margin: 60px;
+        display: block;
+        font-weight: 700;
+        font-size: 28px;
+        line-height: 100%;
+        letter-spacing: 0%;
+        border: none;
+    }
+}
